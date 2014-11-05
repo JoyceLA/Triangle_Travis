@@ -18,9 +18,6 @@ class Test_Triangle(unittest.TestCase):
         self.assertEqual("Isosceles", self.triangle.setSides(6, 3, 6))
     def test_Triangle_NotATriangle(self):
         self.assertEqual("Not A Triangle", self.triangle.setSides(5, 5, 12))
-    def test_Triangle_NotATrianguleError(self):
-        self.assertRaises(NumberError, self.triangle.getMessage(7, 7, -4))
-    
 
 
 if __name__ == "__main__":
