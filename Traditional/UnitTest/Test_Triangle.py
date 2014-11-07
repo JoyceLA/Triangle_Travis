@@ -45,8 +45,7 @@ class Test_Triangle(unittest.TestCase):
     def test_Triangle_NotATriangule5(self):
         self.assertEqual("NotATriangle", self.triangle.setSides(10, 4, 4))
 
-    def test_Triangle_NotATriangule6(self):
-        self.assertRaises(NumberError, self.triangle.getMessage(7, 7, -4))
+  
 
 
 if __name__ == "__main__":
