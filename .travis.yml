@@ -9,12 +9,12 @@ script:
 - cd Structured
 - lettuce AceptanceTest
 - cd UnitTest
-- python Test_Triangule.py
+- python Test_Triangle.py
 - coverage run --branch Test_Triangle.py
 - coverage report -m
 - cd ../../Traditional
 - lettuce AceptanceTest
 - cd UnitTest
-- python Test_Triangule.py
+- python Test_Triangle.py
 - coverage run --branch Test_Triangle.py
 - coverage report -m
