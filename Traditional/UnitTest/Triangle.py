@@ -47,16 +47,6 @@ class Triangle():
 
         return self.texto
 
-    def getMensaje(self, a, b, c):
-        if a < 1 or b < 1 or c < 1:
-            raise NumberError('Todos los lados del triangulo deben ser mayor a 1')
-        else:
-            print "Correcto"
-
-
-class NumberError(ValueError):
-    pass
-
 
 
 t = Triangle()
