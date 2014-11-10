@@ -1,6 +1,6 @@
 pip install -r requirements.txt
 autopep8 -ir .
-flake8 --max-complexity=16 --exclude=*.txt,*.md --max-line-length=200 .
+flake8 --max-complexity=16 --exclude=*.txt,*.md,.gitignore --max-line-length=200 .
 cd Structured
 lettuce AceptanceTest
 cd UnitTest
