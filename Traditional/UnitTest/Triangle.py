@@ -47,7 +47,3 @@ class Triangle():
 
         return self.texto
 
-
-
-t = Triangle()
-t.getMensaje(2,-3,3)
