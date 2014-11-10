@@ -4,7 +4,7 @@
 import unittest
 import sys
 sys.path.append('../')
-from Triangle import Triangle, NumberError
+from Triangle import Triangle
 
 
 class Test_Triangle(unittest.TestCase):
